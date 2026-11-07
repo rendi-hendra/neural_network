@@ -30,6 +30,7 @@ with left_col:
         drawing_mode="freedraw",
         key="canvas",
         update_streamlit=True,
+        return_image_data=True
     )
 
 # Helper: crop + center like MNIST
